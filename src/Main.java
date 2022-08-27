@@ -7,7 +7,8 @@ public class Main {
         weight [0] = 1;
         weight [1] = 2;
         weight [2] = 3;
-        System.out.print(weight[0] + ", " + weight[1] + ", " + weight[2]);
+        for (int w = weight.length - 1; w < 12; w ++)
+        System.out.print(w);
         System.out.println();
 
         double [] weightDouble = new double [] {1.57, 7.654, 9.986};
